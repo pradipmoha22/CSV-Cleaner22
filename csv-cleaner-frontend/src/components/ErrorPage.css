@@ -1,0 +1,96 @@
+.error-page {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.error-icon {
+    font-size: 4rem;
+    color: #f44336;
+    margin-bottom: 1.5rem;
+}
+
+.error-page h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.error-page p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.error-page strong {
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.secondary-button {
+    background: white;
+    color: #667eea;
+    border: 2px solid #667eea;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.secondary-button:hover {
+    background: #667eea;
+    color: white;
+}
+
+.text-button {
+    background: none;
+    border: none;
+    color: #667eea;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 0 0.5rem;
+}
+
+.text-button:hover {
+    color: #764ba2;
+}
+
+.troubleshooting {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.troubleshooting h4 {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .error-page {
+        margin: 2rem;
+        padding: 1.5rem;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    .secondary-button {
+        width: 100%;
+    }
+}

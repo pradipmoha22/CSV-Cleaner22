@@ -1,0 +1,13 @@
+Order ID,Customer Name,Email,Phone,Product,Quantity,Unit Price,Total,Order Date,Status,Notes
+ORD-001,John Smith,john.smith@,555-1234,Laptop Pro,2,1299.99,2599.98,2023-01-15,shipped,
+ORD-002,MARIA GARCIA,maria.garcia,555-5678,"Monitor 24""",one,349.50,349.5,01/16/2023,Delivered,urgent
+ORD-003,wei zhang,wei.zhang@email.com,,Wireless Mouse,3,29.99,89.97,17-Jan-23,PENDING,
+,Fatima Al-Sayed,,555-3456,USB-C Hub,2,79.99,,2023/01/18,Shipped,return
+ORD-005,,fatima@,555-7890,External SSD,,159.99,159.99,19-01-2023,processing,
+ORD-006,JOHN SMITH,john.smith@email.com,555-1234,Laptop Pro,2,1299.99,2599.98,2023-01-15,shipped,duplicate
+ORD-007,carlos,carlos.r,555-6789,Webcam HD,1,89.99,89.99,21/01/23,Pending,
+ORD-008,AISHA KHAN,aisha.khan@,,,2,249.99,499.98,,DELIVERED,gift wrap
+ORD-009,David Kim,david.kim,555-4567,Docking Station,1,,199.99,2023.01.23,,
+ORD-010,Elena,,not a number,Portable Monitor,three,299.99,,not a date,cancelled,
+,,,,,,,,,,
+,,,,,,,,,,
